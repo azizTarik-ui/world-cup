@@ -1,0 +1,42 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* intro-section */
+
+#intro{
+    padding: 50px 140px 100px 140px;
+}
+.intro-container {
+    background-color: #161616;
+    width: auto;
+    height: 646px;
+    display: flex;
+    border-radius: 30px;
+}
+.intro-text{
+    width: 531px;
+    height: 124px;
+    padding-left: 106px;
+    padding-top: 111px;
+}
+.intro-text h1,p{
+    color: white;
+}
+.intro-text h1{
+    font-weight: 700;
+    font-size: 70px;
+}
+.intro-text p {
+    font-weight: 400;
+    font-size: 16px;
+}
+.intro-img{
+    height: 631px;
+    width: 581px;
+}
+.intro-img img{
+    height: 646px;
+    width: 900px;
+}
