@@ -20,6 +20,7 @@ body {
   display: flex;
   border-radius: 30px;
 }
+
 .intro-text {
   width: 531px;
   height: 124px;
@@ -46,6 +47,11 @@ p {
   border: none;
   color: white;
   font-size: 20px;
+  transition: 2s;
+}
+
+.intro-text button:hover{
+  width: 350px;
 }
 
 .intro-img img {
@@ -331,7 +337,6 @@ hr {
 
   .intro-text p {
     font-size: 14px;
-    text-overflow: ellipsis;
   }
 
   .intro-img img {
